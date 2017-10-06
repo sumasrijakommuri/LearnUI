@@ -39,7 +39,7 @@ nav div ul li{
     float: left;
     text-align: center;
     padding: 40px 25px;
-    display: table-column;
+    display: inline-flex;
 }
 
 nav div ul li a{
@@ -77,11 +77,15 @@ div.container img{
     filter: grayscale(100%);
 }
 
-div.container img:hover{
+div.container div.imgdata{
+
+}
+
+div.container div.imgdata img:hover{
     filter: grayscale(0%);
 }
 
-div.container p{
+div.container div.imgdata p{
     display: inline-block;
     padding: 15px 5px 5px 10px;
     max-width: 60%;
@@ -119,15 +123,17 @@ div.container div.inner-blue{
     margin: 0 auto;
     position: relative;
     vertical-align: middle;
+    max-width:90%;
+    background: #5eb4e6;
 }
 
 div.container div.inner-blue p{
-    min-width:90%;
     margin:4%;
-    padding: 30px 20px 30px 20px;
-    background: #5eb4e6;
+    min-width: 90%;
+    padding: 20px 10px 20px 10px;
     color: #292929;
     text-align:justify;
+    font-size: 22px;
 }
 
 div.footer ul.main{
