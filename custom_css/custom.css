@@ -80,7 +80,9 @@ div.container img{
 }
 
 div.container div.imgdata{
-
+    margin: 0 auto;
+    position: relative;
+    max-width: 1100px;
 }
 
 div.container div.imgdata img:hover{
@@ -89,7 +91,7 @@ div.container div.imgdata img:hover{
 
 div.container div.imgdata p{
     display: inline-block;
-    padding: 15px 5px 5px 10px;
+    padding: 15px 0 5px 10px;
     max-width: 60%;
     color: #5f5f5f;
     text-align: justify;
