@@ -22,24 +22,22 @@ nav img{
     display: inline-block;
     vertical-align: bottom;
     float: left;
+    position: relative;
     padding: 20px 0 0 0;
-    transform: scale(0.75,0.75);
-    width:40%;
 }
 
 nav div ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    float: right;
     display: inline-block;
-    width:58%;
 }
 
 nav div ul li{
     float: left;
     text-align: center;
     padding: 40px 25px;
-    display: inline-flex;
 }
 
 nav div ul li a{
@@ -53,6 +51,10 @@ nav div ul li a{
 nav div ul li a:hover{
     color: #fff;
     text-decoration: underline;
+}
+
+.clearfix{
+    clear:both;
 }
 
 div.page{
